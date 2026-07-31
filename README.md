@@ -7,7 +7,7 @@ Dans les documents d'énoncés, il y a des manipulations et vérifications à fa
 Voici les codes:
 
 - Énoncé à tester par l'étudiant:
-	$\color{gray}{\text{À FAIRE}}$
+	$\color{gray}{\text{MANIPULATION}}$
 
 - Vérification par le professeur:
 	$\color{darkred}{\text{À VÉRIFIER}}$

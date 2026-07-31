@@ -38,7 +38,7 @@ Voici l'arborescence des fichiers / Le File Tree
 En cliquant sur un fichier dans le navigateur, par défaut, le README sera affiché.
 ![web2](gui/web2.JPG)
 
-$\color{gray}{\text{À FAIRE}}$ : **Naviguer dans l'arbre des fichiers et trouver ou se trouve les images dans ce README.**
+$\color{gray}{\text{MANIPULATION}}$ : **Naviguer dans l'arbre des fichiers et trouver ou se trouve les images dans ce README.**
 
 -----
 
@@ -73,7 +73,7 @@ https://git-scm.com/downloads/guis?os=windows
 	- Git Extensions: Pour les utilisateurs de Windows
 	- git-cola: Pour les utilisateurs de Linux et MacOS
 
-$\color{gray}{\text{À FAIRE}}$ : **Installer Git (Sans interface)**
+$\color{gray}{\text{MANIPULATION}}$ : **Installer Git (Sans interface)**
 
 Une fois Git installer, vous aurez une nouvelle fonction via le click-droit de votre souris:
 
@@ -92,7 +92,7 @@ Le lien du GitHub se trouve dans la section `HTTPS` du menu `clone`
 ![](gui/gitrepo.JPG)
 
 
-$\color{gray}{\text{À FAIRE}}$ : **Utilisez la commande Git et copier l'arbre du Repo sur votre ordinateur**
+$\color{gray}{\text{MANIPULATION}}$ : **Utilisez la commande Git et copier l'arbre du Repo sur votre ordinateur**
 
 -----
 
@@ -118,7 +118,7 @@ git fetch
 git rebase origin/main
 ```
 
-$\color{gray}{\text{À FAIRE}}$ : **Essayer la command 'pull'**
+$\color{gray}{\text{MANIPULATION}}$ : **Essayer la command 'pull'**
 
 -----
 
