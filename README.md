@@ -7,10 +7,19 @@ Dans les documents d'énoncés, il y a des manipulations et vérifications à fa
 Voici les codes:
 
 - Énoncé à tester par l'étudiant:
-	$\color{gray}{\text{MANIPULATION}}$
+> $\color{gray}{\text{MANIPULATION}}$ **NOM DE LA MANIPULATION**
+>
+> Description de la manipulation
+>
+>
+
 
 - Vérification par le professeur:
-	$\color{darkred}{\text{À VÉRIFIER}}$
+> $\color{darkred}{\text{À VÉRIFIER}}$ **NOM DE LA VÉRIFICATION**
+>
+> Description de la vérification
+>
+>
 
 
 ## Laboratoire 1
