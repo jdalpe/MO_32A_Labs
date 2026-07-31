@@ -27,10 +27,14 @@ Pour visualiser les README.md, utiliser la plateforme Web, les images seront dir
 
 Pour télécharger les informations (Le code ET le document de questions), utiliser le git local. Il est possible d'utiliser la copie local, mais c'est une bonne habitude d'utiliser Git directement.
 
-###### Plateforme Web
+-----
 
-![Voici l'arborescence des fichiers / Le File Tree](gui/web.JPG)
+## Plateforme Web
+
+Voici l'arborescence des fichiers / Le File Tree
+![web](gui/web.JPG)
+
 
 En cliquant sur un fichier dans le navigateur, par défaut, le README sera affiché.
-![README](gui/web2.JPG)
+![web2](gui/web2.JPG)
 
