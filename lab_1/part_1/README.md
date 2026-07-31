@@ -29,8 +29,8 @@ Pour télécharger les informations (Le code ET le document de questions), utili
 
 ###### Plateforme Web
 
-![Voici l'arborescence des fichiers / Le File Tree](gui/web.png)
+![Voici l'arborescence des fichiers / Le File Tree](gui/web.JPG)
 
 En cliquant sur un fichier dans le navigateur, par défaut, le README sera affiché.
-![README](gui/web2.png)
+![README](gui/web2.JPG)
 
