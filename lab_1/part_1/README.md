@@ -166,7 +166,7 @@ Les 2 boutons les plus utilisés sont:
 
 **NOTE**: Si le code n'est pas `Vérifier`, le bouton `Upload` fera une vérification.
 
-**NOTE**: Cette IDE est très précis dans ce demande de fichier de programmation. Le fichier sera un `.ino` et le tout dans être dans un dossier du même nom. (Exemple: `blink/blink.ino`)
+**NOTE**: Cette IDE est très précis dans l'arbre de fichier de programmation. Le fichier sera un `.ino` et le tout dans être dans un dossier du même nom. (Exemple: `blink/blink.ino`)
 
 > $\color{gray}{\text{MANIPULATION}}$ **Installer Arduino IDE**
 > 
