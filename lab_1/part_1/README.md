@@ -147,7 +147,38 @@ git rebase origin/main
 
 # Arduino IDE
 
-TBD
+Pour l'ensemble du cours 32A, nous allons utiliser l'IDE (Integrated Development Environment) de Arduino. Cette IDE permet l'intégration rapide de librairies et une compilation direct du micro-contrôleur. 
+
+https://www.arduino.cc/en/software/
+
+Nous allons profiter de certaines librairies déjà intégrer à l'environment pour nous concentrer sur les protocoles numériques.
+
+Voici l'interface de l'Arduino IDE:
+
+![](gui/arduino1.JPG)
+
+Les 2 boutons les plus utilisés sont:
+
+![](gui/arduino2.JPG)
+
+- Vérify: Vérifier les erreurs de compilations
+- Upload: Créer l'exécutable et l'envoyer au micro-contrôleur
+
+**NOTE**: Si le code n'est pas `Vérifier`, le bouton `Upload` fera une vérification.
+
+**NOTE**: Cette IDE est très précis dans ce demande de fichier de programmation. Le fichier sera un `.ino` et le tout dans être dans un dossier du même nom. (Exemple: `blink/blink.ino`)
+
+> $\color{gray}{\text{MANIPULATION}}$ **Installer Arduino IDE**
+> 
+> Télécharger l'IDE et assurez-vous qu'il est bien installer
+> 
+> 
+
+## Arduino Mega
+
+![](gui/arduino3.JPG)
+
+
 
 -----
 
