@@ -1,13 +1,16 @@
 # MO_32A_Labs
 L'ensemble des Laboratoires pour le cours 243 32A
 
-Dans les documents d'énoncés, il y a des manipulations à faire.
-Voici les codes:
-Énoncé à faire:
-$\color{gray}{\text{À FAIRE}}$
+## Manipulation
+Dans les documents d'énoncés, il y a des manipulations et vérifications à faire.
 
-Vérification par le professeur:
-$\color{darkred}{\text{À VÉRIFIER}}$
+Voici les codes:
+
+- Énoncé à tester par l'étudiant:
+	$\color{gray}{\text{À FAIRE}}$
+
+- Vérification par le professeur:
+	$\color{darkred}{\text{À VÉRIFIER}}$
 
 
 ## Laboratoire 1
