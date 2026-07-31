@@ -4,6 +4,7 @@
 Pondération:
 - Partie 1: 0%
 - Partie 2: 30%
+- Partie 3: 30%
 - Partie 4: 40%
 
 ## Matériels
@@ -11,9 +12,10 @@ Pondération:
 - 1 X Fils USB (Type A -- Type B)
 - 1 X PLaquette de montage
 - 1 X Interrupteur de type bouton poussoir
-- 1 X Resistance de 220 Ohm
+- 1 X Resistance de 220 Ω
+- 1 X Resistance de ~20 kΩ
 - 1 X DEL rouge
-- 1 X Potentiomètre de 10kΩ
+- 1 X Potentiomètre de 10 kΩ
 - Fils de prototypage (Environ 12)
 
 ## Équipements:
@@ -31,7 +33,6 @@ Pondération:
 ## Pinout
 - arduino-mega2560-pinout.pdf
 - arduino-mega2560-schematic.pdf
-
 
 
 #### Partie 1:
