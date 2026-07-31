@@ -38,7 +38,11 @@ Voici l'arborescence des fichiers / Le File Tree
 En cliquant sur un fichier dans le navigateur, par défaut, le README sera affiché.
 ![web2](gui/web2.JPG)
 
-$\color{gray}{\text{MANIPULATION}}$ : **Naviguer dans l'arbre des fichiers et trouver ou se trouve les images dans ce README.**
+> $\color{gray}{\text{MANIPULATION}}$ **Naviguer dans GitHub**
+> 
+> Naviguer dans l'arbre des fichiers et trouver ou se trouve les 
+> images dans ce README.
+> 
 
 -----
 
