@@ -77,7 +77,13 @@ https://git-scm.com/downloads/guis?os=windows
 	- Git Extensions: Pour les utilisateurs de Windows
 	- git-cola: Pour les utilisateurs de Linux et MacOS
 
-$\color{gray}{\text{MANIPULATION}}$ : **Installer Git (Sans interface)**
+
+> $\color{gray}{\text{MANIPULATION}}$ **Installer Git**
+> 
+> Installer Git sur votre ordinateur. 
+> Vous aurez accès à l'outils `Git Bash` ainsi qu'à `Git GUI`
+> Pour ce laboratoire, nous allons utiliser le `BASH` uniquement
+> 
 
 Une fois Git installer, vous aurez une nouvelle fonction via le click-droit de votre souris:
 
@@ -96,7 +102,11 @@ Le lien du GitHub se trouve dans la section `HTTPS` du menu `clone`
 ![](gui/gitrepo.JPG)
 
 
-$\color{gray}{\text{MANIPULATION}}$ : **Utilisez la commande Git et copier l'arbre du Repo sur votre ordinateur**
+> $\color{gray}{\text{MANIPULATION}}$ **Fetching**
+> 
+> Utiliser la commande Git et copier l'arbre du Repo sur votre ordinateur.
+> 
+> 
 
 -----
 
@@ -122,7 +132,16 @@ git fetch
 git rebase origin/main
 ```
 
-$\color{gray}{\text{MANIPULATION}}$ : **Essayer la command 'pull'**
+
+> $\color{gray}{\text{MANIPULATION}}$ **Pull et Fetch**
+> 
+> Utiliser cette commande si le Git Repo a été mis à jour en ligne. 
+> Pour le savoir, on peut aussi utiliser la même commande et si le message
+> est: `Already up-to-date`. Le tout était déjà à jour.
+> 
+> Pour un code `open-source`, il est conseiller d'utiliser cette commande 
+> à chaque fois qu'on veut aussi le mettre à jour. Cela évite les conflits
+> 
 
 -----
 
