@@ -8,7 +8,7 @@
 - Connaître les I/O du AtMega
 
 
-### GitHub
+# GitHub
 
 GitHub est un ensemble de Git Repository. Il y a 3 platformes principales pour les projets de type 'open-source'. 
 
@@ -94,9 +94,40 @@ Le lien du GitHub se trouve dans la section `HTTPS` du menu `clone`
 
 $\color{gray}{\text{À FAIRE}}$ : **Utilisez la commande Git et copier l'arbre du Repo sur votre ordinateur**
 
+-----
+
 ##### Git Extensions
 
 Si vous voulez essayer Git Extensions, l'interface sera aussi disponible via click-droit:
 
 ![](gui/git2.JPG)
 
+
+##### Mettre à jour le Git Repo
+
+Pour suivre le développement actif des répertoires, vous pouvez simplement appliquer des `patch`. Une façon très simple est d'utiliser le `Git Bash` dans le fichier et d'écrire:
+
+```
+git pull
+```
+
+Pour une version plus précise, voici les commandes:
+
+```
+git fetch
+git rebase origin/main
+```
+
+$\color{gray}{\text{À FAIRE}}$ : **Essayer la command 'pull'**
+
+-----
+
+# Arduino IDE
+
+TBD
+
+-----
+
+# AtMega
+
+TBD
