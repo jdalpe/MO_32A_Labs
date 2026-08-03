@@ -40,13 +40,13 @@ void loop() {
 }
 ```
 
-Dans l'utilisation d'un LED, pas besoin de compliquer le tout et on peut directement utiliser `analogWrite`.
+Dans l'utilisation d'une LED, pas besoin de compliquer le tout et on peut directement utiliser `analogWrite`.
 
 https://docs.arduino.cc/learn/microcontrollers/analog-output/
 
 https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/
 
-![](gui/circuit2.JPG)
+![](gui/circuit1.JPG)
 
 > $\color{gray}{\text{MANIPULATION}}$ **PWM**
 >
