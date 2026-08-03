@@ -194,7 +194,7 @@ L'arduino IDE a un ensemble de micro-contrôleur déjà connu, nous devons aller
 
 ### Utilisation d'exemples
 
-Il est possible de tester l'Arduino Mega avec des programmes d'exemples. Comme nous avons besoin de la communication `Serial` pour l'ensemble de nos laboratoires, utilisons: `File/Examples/04.Communication/ASCIITable`. Une autre fenètre de l'IDE s'ouvrira. Fermer l'ancienne.
+Il est possible de tester l'Arduino Mega avec des programmes d'exemples. Comme nous avons besoin de la communication `Serial` pour l'ensemble de nos laboratoires, utilisons: `File/Examples/04.Communication/ASCIITable`. Une autre fenêtre de l'IDE s'ouvrira. Fermer l'ancienne.
 
 ![](gui/imgcom3.JPG)
 
@@ -206,7 +206,7 @@ Dans la barre blanche en haut, on peut trouver un micro-contrôleur ou un module
 
 ![](gui/lib1.JPG)
 
-### Interface Serielle
+### Interface Sérielle
 
 Finalement, l'Arduino IDE contient un outil de débogage très utile appelé: `Serial Monitor`. Pour l'ouvrir, aller dans `Tools/Serial Monitor`.
 
