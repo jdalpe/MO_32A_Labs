@@ -46,6 +46,8 @@ https://docs.arduino.cc/learn/microcontrollers/analog-output/
 
 https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/
 
+![](gui/circuit2.JPG)
+
 > $\color{gray}{\text{MANIPULATION}}$ **PWM**
 >
 > Utiliser l'exemple sur le site de Arduino (analogWrite).
