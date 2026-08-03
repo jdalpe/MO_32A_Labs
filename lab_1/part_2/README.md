@@ -8,7 +8,7 @@
 - ADC
 
 
-# Input et Output basique
+# Input et Output de base
 
 La fonction la plus simplement sur un micro=contrôleur est `IO` ou plus précisement `GPIO` (General Purpose Input/Output). En français, on parle d'intrants et d'extrants. Dans le cadre de ce cours, nous allons faire réference au broche (pin) dans la fiche technique (datasheet). Nous allons donc parler de `pin input/output dans la datasheet`.
 
