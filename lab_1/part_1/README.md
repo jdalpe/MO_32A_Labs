@@ -178,10 +178,65 @@ Les 2 boutons les plus utilisés sont:
 
 ![](gui/arduino3.JPG)
 
+Pour utiliser la plateforme Arduino Mega, brancher le fils USB B à un ordinateur. 
 
+- Sur Windows, le driver `COM Port` sera initialisé et un chiffre sera associer. L'interface Arduino pourra aussi détecter le chiffre. Via la `Device Manager`:
+
+![](gui/imgcom1.JPG)
+
+- Sur Linux, l'interface `ttyACM0` sera disponible. (Ou `ttyUSB0` pour les systèmes plus récent)
+
+### Configuration du Arduino Mega
+
+L'arduino IDE a un ensemble de micro-contrôleur déjà connu, nous devons aller selectionner le bon ET la bonne interface. Dans le cas de cette exemple, il s'agit du `COM4`.
+
+![](gui/imgcom2.JPG)
+
+### Utilisation d'exemples
+
+Il est possible de tester l'Arduino Mega avec des programmes d'exemples. Comme nous avons besoin de la communication `Serial` pour l'ensemble de nos laboratoires, utilisons: `File/Examples/04.Communication/ASCIITable`. Une autre fenètre de l'IDE s'ouvrira. Fermer l'ancienne.
+
+![](gui/imgcom3.JPG)
+
+### Librairies?
+
+L'IDE vient avec un répertoire de sous programme ou `Library`. Le tout est accessible via `Tools/Manage Libraries`. L'interface prend un certain temps à s'ouvre et fait une recherche des dernières librairies (Mis a jour fréquemment)
+
+Dans la barre blanche en haut, on peut trouver un micro-contrôleur ou un module qu'on aimerait utiliser pour avoir la librairie directement. Essayer le `MFRC522`. Vous pouvez voir un exemple sur le bureau de l'enseignant. 
+
+![](gui/lib1.JPG)
+
+### Interface Serielle
+
+Finalement, l'Arduino IDE contient un outil de débogage très utile appelé: `Serial Monitor`. Pour l'ouvrir, aller dans `Tools/Serial Monitor`.
+
+**NOTE**: Asurez-vous d'avoir sélectionner la bonne interface `COM`. Pendant l'installation (Le `Upload`), l'interface est utilisé comme ligne d'écriture. Le `Serial Monitor` sera grisé ou affichera des caractères incohérent, le tout est normal.
+
+![](gui/monitor1.JPG)
+
+Pour votre application, utiliser toujours l'option `Autoscroll`. La zone en haut est pour `l'écriture(Tx)`. La section la plus grande est pour `la lecture(Rx)`. L'option `Carriage return` est pour l'écriture, chaque envoie aura le caractère `\r` à la fin. Vous pouvez selectionner avec `\n` aussi. L'option `baud` est la plus important, il faut que la bande soit exactement celle de votre programme. Le protocole utilisé par votre ligne USB est le UART, la synchronisation est **SANS** pin d'horloge.
+
+L'option `Clear output` vide simplement la transmission de données. L'option `Show timestamp` ajoutera l'heure de votre ordinateur pour la réception de chaque ligne. C'est une option utile si le délai doit être mesuré, mais le formattage visuelle sera affecté.
+
+> $\color{darkred}{\text{À VÉRIFIER}}$ **Environnement complet**
+>
+> Brancher votre Arduino Mega, USB seulement, et configurer l'Arduino IDE.
+> Tester l'ensemble des boutons (`Verify` et `Upload`) via un programme 
+> d'exemple (ASCIITable).
+> 
+> S'assurer que le programme compile et envoie l'information sur l'interface
+> sérielle.
+>
 
 -----
 
-# AtMega
+# ATMega
 
-TBD
+Votre plateforme Arduino Mega est fabriquer autour d'un micro-contrôleur, le Atmel ATMega 2560. Avant de commencer la programmation, reviser les options (`Features`) via la `datasheet`. 
+
+> $\color{gray}{\text{MANIPULATION}}$ **ATMega datasheet**
+> 
+> Ouvrir le PDF atmet-2549-8-bit...pdf.
+> Trouvez la section `Features`.
+> 
+> 
