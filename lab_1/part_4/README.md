@@ -90,6 +90,6 @@ compteurs interne.
 > Montrer à l'enseignant le signal sur la pin 3 (Oscilloscope sur la pin 3 des 2 Arduinos). 
 > 
 
-> $\color{darkgree}{\text{QUESTIONS}}$ **Remettez le document questions.docx rempli via Teams**
+> $\color{darkgreen}{\text{QUESTIONS}}$ **Remettez le document questions.docx rempli via Teams**
 >
 > Laboratoire 1 fini!
