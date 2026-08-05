@@ -202,7 +202,14 @@ Il est possible de tester l'Arduino Mega avec des programmes d'exemples. Comme n
 
 L'IDE vient avec un répertoire de sous programme ou `Library`. Le tout est accessible via `Tools/Manage Libraries`. L'interface prend un certain temps à s'ouvre et fait une recherche des dernières librairies (Mis a jour fréquemment)
 
-Dans la barre blanche en haut, on peut trouver un micro-contrôleur ou un module qu'on aimerait utiliser pour avoir la librairie directement. Essayer le `MFRC522`. Vous pouvez voir un exemple sur le bureau de l'enseignant. 
+Dans la barre blanche en haut, on peut trouver un micro-contrôleur ou un module qu'on aimerait utiliser pour avoir la librairie directement. Essayer le `MFRC522`. 
+
+> $\color{gray}{\text{MANIPULATION}}$ **Librairies!!**
+> 
+> Vous pouvez voir un exemple sur le bureau de l'enseignant. 
+> Le circuit est une fusion des librairies FastLED et MFRC522. 
+> 
+
 
 ![](gui/lib1.JPG)
 
@@ -210,13 +217,15 @@ Dans la barre blanche en haut, on peut trouver un micro-contrôleur ou un module
 
 Finalement, l'Arduino IDE contient un outil de débogage très utile appelé: `Serial Monitor`. Pour l'ouvrir, aller dans `Tools/Serial Monitor`.
 
-**NOTE**: Asurez-vous d'avoir sélectionner la bonne interface `COM`. Pendant l'installation (Le `Upload`), l'interface est utilisé comme ligne d'écriture. Le `Serial Monitor` sera grisé ou affichera des caractères incohérent, le tout est normal.
+**NOTE**: Asurez-vous d'avoir sélectionner la bonne interface `COM`. Pendant l'installation (Le `Upload`), l'interface est utilisée comme ligne d'écriture. Le `Serial Monitor` sera grisé ou affichera des caractères incohérent, le tout est normal.
 
 ![](gui/monitor1.JPG)
 
-Pour votre application, utiliser toujours l'option `Autoscroll`. La zone en haut est pour `l'écriture(Tx)`. La section la plus grande est pour `la lecture(Rx)`. L'option `Carriage return` est pour l'écriture, chaque envoie aura le caractère `\r` à la fin. Vous pouvez selectionner avec `\n` aussi. L'option `baud` est la plus important, il faut que la bande soit exactement celle de votre programme. Le protocole utilisé par votre ligne USB est le UART, la synchronisation est **SANS** pin d'horloge.
+Pour votre application, utiliser toujours l'option `Autoscroll`. La zone en haut est pour `l'écriture(Tx)`. La section la plus grande est pour `la lecture(Rx)`. L'option `Carriage return` est pour l'écriture, chaque envoie aura le caractère `\r` à la fin. Vous pouvez selectionner avec `\n` aussi. L'option `baud` est la plus importante, il faut que la bande soit exactement celle de votre programme. Le protocole utilisé par votre ligne USB est le UART, la synchronisation est **SANS** pin d'horloge.
 
-L'option `Clear output` vide simplement la transmission de données. L'option `Show timestamp` ajoutera l'heure de votre ordinateur pour la réception de chaque ligne. C'est une option utile si le délai doit être mesuré, mais le formattage visuelle sera affecté.
+L'option `Clear output` vide simplement la transmission de données. 
+
+L'option `Show timestamp` ajoutera l'heure de votre ordinateur pour la réception de chaque ligne. C'est une option utile si le délai doit être mesuré, mais le formattage visuelle sera affecté.
 
 > $\color{darkred}{\text{À VÉRIFIER}}$ **Environnement complet**
 >

@@ -9,7 +9,7 @@
 
 # Input et Output de base 
 
-La fonction la plus simplement sur un micro=contrôleur est `IO` ou plus précisement `GPIO` (General Purpose Input/Output). En français, on parle d'intrants et d'extrants. Dans le cadre de ce cours, nous allons faire réference au broche (pin) dans la fiche technique (datasheet). Nous allons donc parler de `pin input/output dans la datasheet`.
+La fonction la plus simplement sur un micro-contrôleur est `IO` ou plus précisement `GPIO` (General Purpose Input/Output). En français, on parle d'intrants et d'extrants. Dans le cadre de ce cours, nous allons faire réference au broche (pin) dans la fiche technique (datasheet). Nous allons donc parler de `pin input/output dans la datasheet`.
 
 Pour un compte-rendu écrit ou un examen, les deux termes seront acceptés. (Pareillement pour DEL/LED)
 
@@ -39,13 +39,14 @@ Ajoutons une DEL (LED) au circuit. Le ATMega fourni 20mA par Output, une résist
 > En utilisant le même code, modifier pour avoir un `output` sur la pin 3.
 > (En plus du `input` sur la pin 2)
 > 
-> La fonction `pinMode` servira a la définition. La fonction `digitalWrite`> sera utile pour le contrôle. 
+> La fonction `pinMode` servira a la définition. La fonction `digitalWrite`
+> sera utile pour le contrôle. 
 > 
 > https://docs.arduino.cc/language-reference/en/functions/digital-io/digitalwrite/
 > 
 > https://docs.arduino.cc/language-reference/en/functions/digital-io/pinMode/
 > 
-> Connecté une DEL à la broche 3. Placer la DEL via `cathode commune`.
+> Connecter une DEL à la broche 3. Placer la DEL via `cathode commune`.
 >
 > Comportement attendu: Quand le signal de 2 est HIGH, allumer la DEL 3.
 >
@@ -112,7 +113,7 @@ void loop() {
 >
 > Assembler le circuit ci-dessus.
 > 
-> Via le Arduino IDE, utiliser le ci-dessus
+> Via le Arduino IDE, utiliser le code ci-dessus
 > 
 >
 
