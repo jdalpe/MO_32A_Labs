@@ -65,7 +65,7 @@ $\color{red}{\text{ATTENTION!!}}$ **Quand on touche au VCC/GND ET qu'on a un ris
 
 Comme discuté dans le cours, il est possible d'utiliser des Pull-up ou Pull-down si le micro-contrôleur a une fonction. Dans le cas des ATMega, uniquement Pull-Up est disponible.
 
-> $\color{gray}{\text{MANIPULATION}}$ **Output**
+> $\color{gray}{\text{MANIPULATION}}$ **Input 2**
 >
 > Toujours avec le même code, transformation votre pin 2 en `Input Pull Up`.
 >
@@ -89,6 +89,7 @@ Comme discuté dans le cours, il est possible d'utiliser des Pull-up ou Pull-dow
 Les ADCs ou CAN en français (Convertisseur analogique-numérique) sont des fonctions très puissante sur un micro-contrôleur. Via la comparaison binaire (Ici en 10 bits), on peut lire le courant analogique et l'utiliser dans la programmation.
 
 Nous n'allons pas les utiliser, mais il y a aussi un équivalent inverse, les DAC (Digital to Analog Converter). Très utilisé dans la reconstruction de signaux audios.
+
 
 ![](gui/circuit2.JPG)
 
@@ -117,7 +118,39 @@ void loop() {
 > 
 >
 
-> $\color{darkred}{\text{À VÉRIFIER}}$ **Input Eval**
+Un ADC donne une valeur sur son nombre total de bits (ici 10 -> 1024).
+
+Pour calculer la tension, prenons `sensorValue`:
+
+```
+vcc = 5
+bits = 10
+sensorValue = analogRead(sensorPin)
+
+tension = sensorValue/(2^bits) * vcc
+
+2^bits -->  1024
+Exemple: sensorValue = 400
+
+400/1024 = 0.390625
+0.390625 * 5 = 1.95 V
+
+
+```
+
+**NOTE** Si vous voulez tester d'afficher la tension, assurez-vous de placer vos valeurs en `float` avant. Des divisions par nombre entier vont avoir des erreurs:
+
+```
+# Entier (int/long)
+a = 400/1024 
+a = 0
+
+# Nombre floatant (float/double)
+a = 400*1024
+a = 0.390625
+```
+
+> $\color{darkred}{\text{À VÉRIFIER}}$ **ADC Eval**
 >
 > Montrer à l'enseignant le `Serial Monitor`. 
 > Décrivez dans vos mots ce qui se produit dans ce programme.
