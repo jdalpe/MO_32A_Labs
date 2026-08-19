@@ -3,19 +3,19 @@
 
 Pondération:
 - Partie 1: 0%
-- Partie 2: 30%
+- Partie 2: 38%
 - Partie 3: 30%
-- Partie 4: 40%
+- Partie 4: 32%
 
 ## Matériels
 - 1 X Arduino Mega 2560 Rev3
 - 1 X Fils USB (Type A -- Type B)
-- 1 X PLaquette de montage
+- 1 X Plaquette de montage
 - 1 X Interrupteur de type bouton poussoir
 - 1 X Resistance de ~10 kΩ
 - 1 X DEL rouge
 - 1 X Potentiomètre de 10 kΩ
-- Fils de prototypage (Environ 12)
+- Paquet de jumper male-male
 
 ## Équipements:
 - Oscilloscope

@@ -89,6 +89,19 @@ Une fois Git installer, vous aurez une nouvelle fonction via le click-droit de v
 
 ![](gui/git1.JPG)
 
+#### Ordinateur de l'école
+Git bash est déjà installer, mais n'est pas lié au click-droit.
+
+- Ouvrir Git Bash et naviguer vers le bureau ou votre clé USB
+
+```
+cd Desktop
+##OU
+cd /d/
+##Votre disque autre que c 
+
+```
+
 Pour copier le Git Repo sur votre ordinateur, sélectionner `Git Bash`
 
 Via la ligne de commande GIT (De type Linux). Cloner le Repo:
@@ -171,6 +184,7 @@ Les 2 boutons les plus utilisés sont:
 > $\color{gray}{\text{MANIPULATION}}$ **Installer Arduino IDE**
 > 
 > Télécharger l'IDE et assurez-vous qu'il est bien installer
+> Le tout est déjà installer sur votre station de travail
 > 
 > 
 
