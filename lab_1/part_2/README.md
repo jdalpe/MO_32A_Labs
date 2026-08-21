@@ -164,7 +164,7 @@ Connecter le AREF dans le 3.3V et ajouter `analogReference(EXTERNAL);` dans `set
 ![](gui/circuit3.JPG)
 
 > $\color{darkred}{\text{À VÉRIFIER}}$ **ADC ARef**
-> 
+>
 > Montrer à l'enseignant le `Serial Monitor`. 
 > Que ce passe-t-il avec et sans `analogReference(EXTERNAL);`
 
