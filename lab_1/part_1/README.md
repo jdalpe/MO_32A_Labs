@@ -23,9 +23,9 @@ GitHub est un ensemble de Git Repository. Il y a 3 platformes principales pour l
 
 Vous avez 3 façons d'utiliser la plateforme. Via le web, en copie local ou en git local.
 
-Pour visualiser les README.md, utiliser la plateforme Web, les images seront directement affiché et vous n'aurez pas à 'chercher' ce que les commandes dans le README.
+Pour visualiser les README.md, utiliser la `Plateforme Web`, les images seront directement affiché et vous n'aurez pas à 'chercher' les commandes dans le README.
 
-Pour télécharger les informations (Le code ET le document de questions), utiliser le git local. Il est possible d'utiliser la copie local, mais c'est une bonne habitude d'utiliser Git directement.
+Pour télécharger les informations (Le code ET le document de questions), utiliser le `Git Local`. Il est possible d'utiliser la `Copie Local`, mais c'est une bonne habitude d'utiliser Git directement.
 
 -----
 
@@ -40,7 +40,7 @@ En cliquant sur un fichier dans le navigateur, par défaut, le README sera affic
 
 > $\color{gray}{\text{MANIPULATION}}$ **Naviguer dans GitHub**
 > 
-> Naviguer dans l'arbre des fichiers et trouver ou se trouve les 
+> Naviguer dans l'arbre des fichiers et trouver où se trouve les 
 > images dans ce README.
 > 
 
@@ -57,13 +57,13 @@ En cliquant sur un fichier dans le navigateur, par défaut, le README sera affic
 - Sélectionner `Download ZIP`
 
 - Dézipper pour avoir la copie de la branche `main`
-	- Si vous avez une mise à jour, le fochier doit être téléchargé à nouveau
+	- Si vous avez une mise à jour, le fichier doit être téléchargé à nouveau
 
 -----
 
 ## Git Local
 
-Pour utiliser Git, il faut télécharger au minimum d'outils en ligne de commande. 
+Pour utiliser Git, il faut télécharger au minimum l'outil en ligne de commande. 
 
 https://git-scm.com/install/windows
 
@@ -79,6 +79,8 @@ https://git-scm.com/downloads/guis?os=windows
 
 
 > $\color{gray}{\text{MANIPULATION}}$ **Installer Git**
+> 
+> (Pour ceux qui utilise l'ordinateur du laboratoire, pas besoin d'installer)
 > 
 > Installer Git sur votre ordinateur. 
 > Vous aurez accès à l'outils `Git Bash` ainsi qu'à `Git GUI`
@@ -98,7 +100,8 @@ Git bash est déjà installer, mais n'est pas lié au click-droit.
 cd Desktop
 ##OU
 cd /d/
-##Votre disque autre que c 
+#Votre disque autre que c 
+#Demander a l'enseignant si la navigation vous pose problème
 
 ```
 
@@ -129,6 +132,8 @@ Si vous voulez essayer Git Extensions, l'interface sera aussi disponible via cli
 
 ![](gui/git2.JPG)
 
+**NOTE** Pour ceux qui utilise les ordinateurs du laboratoire, Git Extensions n'est pas installé pour le moment.
+
 
 ##### Mettre à jour le Git Repo
 
@@ -153,7 +158,7 @@ git rebase origin/main
 > est: `Already up-to-date`. Le tout était déjà à jour.
 > 
 > Pour un code `open-source`, il est conseiller d'utiliser cette commande 
-> à chaque fois qu'on veut aussi le mettre à jour. Cela évite les conflits
+> à chaque fois qu'on veut aussi le mettre à jour. Cela évite les conflits...
 > 
 
 -----
@@ -184,7 +189,7 @@ Les 2 boutons les plus utilisés sont:
 > $\color{gray}{\text{MANIPULATION}}$ **Installer Arduino IDE**
 > 
 > Télécharger l'IDE et assurez-vous qu'il est bien installer
-> Le tout est déjà installer sur votre station de travail
+> Le tout est déjà installer sur votre station de travail (Valider que c'est le cas sur votre station)
 > 
 > 
 
@@ -192,9 +197,9 @@ Les 2 boutons les plus utilisés sont:
 
 ![](gui/arduino3.JPG)
 
-Pour utiliser la plateforme Arduino Mega, brancher le fils USB B à un ordinateur. 
+Pour utiliser la plateforme Arduino Mega, brancher le fils USB A-B à un ordinateur. 
 
-- Sur Windows, le driver `COM Port` sera initialisé et un chiffre sera associer. L'interface Arduino pourra aussi détecter le chiffre. Via la `Device Manager`:
+- Sur Windows, le driver `COM Port` sera initialisé et un chiffre sera associer. L'interface Arduino pourra aussi détecter le chiffre. Via le `Device Manager`:
 
 ![](gui/imgcom1.JPG)
 
@@ -202,7 +207,7 @@ Pour utiliser la plateforme Arduino Mega, brancher le fils USB B à un ordinateu
 
 ### Configuration du Arduino Mega
 
-L'arduino IDE a un ensemble de micro-contrôleur déjà connu, nous devons aller selectionner le bon ET la bonne interface. Dans le cas de cette exemple, il s'agit du `COM4`.
+L'arduino IDE a un ensemble de micro-contrôleur déjà connu, nous devons aller sélectionner le bon ET la bonne interface. Dans le cas de cette exemple, il s'agit du `COM4`.
 
 ![](gui/imgcom2.JPG)
 
@@ -235,7 +240,7 @@ Finalement, l'Arduino IDE contient un outil de débogage très utile appelé: `S
 
 ![](gui/monitor1.JPG)
 
-Pour votre application, utiliser toujours l'option `Autoscroll`. La zone en haut est pour `l'écriture(Tx)`. La section la plus grande est pour `la lecture(Rx)`. L'option `Carriage return` est pour l'écriture, chaque envoie aura le caractère `\r` à la fin. Vous pouvez selectionner avec `\n` aussi. L'option `baud` est la plus importante, il faut que la bande soit exactement celle de votre programme. Le protocole utilisé par votre ligne USB est le UART, la synchronisation est **SANS** pin d'horloge.
+Pour votre application, utiliser toujours l'option `Autoscroll`. La zone en haut est pour `l'écriture(Tx)`. La section la plus grande est pour `la lecture(Rx)`. L'option `Carriage return` est pour l'écriture, chaque envoie aura le caractère `\r` à la fin. Vous pouvez sélectionner avec `\n` aussi. L'option `baud` est la plus importante, il faut que la bande soit exactement celle de votre programme. Le protocole utilisé par votre ligne USB est le UART, la synchronisation est **SANS** pin d'horloge.
 
 L'option `Clear output` vide simplement la transmission de données. 
 
@@ -255,7 +260,7 @@ L'option `Show timestamp` ajoutera l'heure de votre ordinateur pour la réceptio
 
 # ATMega
 
-Votre plateforme Arduino Mega est fabriquer autour d'un micro-contrôleur, le Atmel ATMega 2560. Avant de commencer la programmation, reviser les options (`Features`) via la `datasheet`. 
+Votre plateforme Arduino Mega est fabriquée autour d'un micro-contrôleur, le Atmel ATMega 2560. Avant de commencer la programmation, reviser les options (`Features`) via la `datasheet`. 
 
 > $\color{gray}{\text{MANIPULATION}}$ **ATMega datasheet**
 > 

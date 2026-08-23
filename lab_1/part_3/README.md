@@ -22,7 +22,6 @@ int sensorValue = 0;
 int conversion = 0;  
 
 void setup() {
-  //analogReference(EXTERNAL);
   Serial.begin(9600);
   pinMode(OUTPUT_PWM, OUTPUT);
 }

@@ -9,7 +9,7 @@
 
 Les protocoles servent dans plusieurs configurations, que nous allons voir en classes théoriques. Mais le concept de base est d'envoyer de l'information entre A et B.
 
-Placez-vous avec un étudiant pour la dernière étape. Définissez votre rôle Émetteur (`Transmit [Tx]`) ou Recepteur (`Receive [Rx]`).
+Placez-vous avec un étudiant pour la dernière étape. Définissez votre rôle Émetteur (`Transmit [Tx]`) ou Récepteur (`Receive [Rx]`).
 
 ![](gui/circuit1.JPG)
 
@@ -73,7 +73,7 @@ Pour le récepteur, nous allons aussi utiliser la broche 13 pour une DEL, mais a
 > Décrivez dans vos mots ce qui se produit dans ce programme.
 > 
 
-Le print `réception` est placer avant la pin, le delai n'est cependant pas affecté, car la librairie `Serial` utilise les interruptions et les 
+Le print `réception` est placé avant la pin, le `delay` n'est cependant pas affecté, car la librairie `Serial` utilise les interruptions et les 
 compteurs interne.
 
 > $\color{gray}{\text{MANIPULATION}}$ **Récepteur Bloquant**
@@ -99,9 +99,9 @@ compteurs interne.
 
 Les protocoles servent dans plusieurs configurations, que nous allons voir en classes théoriques. Mais le concept de base est d'envoyer de l'information entre A et B. Pour cette équipe de 3, nous allons avoir: Émetteur -- Recepteur 1 -- Récepteur 2
 
-Placez-vous avec 2 étudiants pour la dernière étape. Définissez votre rôle Émetteur (`Transmit [Tx]`) ou Recepteur1 (`Receive [Rx]`) ou Recepteur2 (`Receive [Rx]`).
+Placez-vous avec 2 étudiants pour la dernière étape. Définissez votre rôle Émetteur (`Transmit [Tx]`) ou Récepteur1 (`Receive [Rx]`) ou Récepteur2 (`Receive [Rx]`).
 
-**NOTE** Avec 3 stations pour contrôler votre circuit, aller au magasin au demander à l'enseignant pour un fil USB plus long.
+**NOTE** Avec 3 stations pour contrôler votre circuit, aller au magasin ou demander à l'enseignant pour un fil USB plus long. Demander aussi une troisième sonde d'oscilloscope.
 
 ![](gui/circuit2.JPG)
 
@@ -190,7 +190,7 @@ Pour le récepteur, nous allons aussi utiliser la broche 13 pour une DEL, mais a
 > Décrivez dans vos mots ce qui se produit dans ce programme.
 > 
 
-Le print `réception` est placer avant la pin, le delai n'est cependant pas affecté, car la librairie `Serial` utilise les interruptions et les 
+Le print `réception` est placer avant la pin, le `delay` n'est cependant pas affecté, car la librairie `Serial` utilise les interruptions et les 
 compteurs interne.
 
 > $\color{gray}{\text{MANIPULATION}}$ **Récepteur (2X) Bloquant**

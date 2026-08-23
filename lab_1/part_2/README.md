@@ -67,7 +67,7 @@ Comme discuté dans le cours, il est possible d'utiliser des Pull-up ou Pull-dow
 
 > $\color{gray}{\text{MANIPULATION}}$ **Input 2**
 >
-> Toujours avec le même code, transformation votre pin 2 en `Input Pull Up`.
+> Toujours avec le même code, transformer votre pin 2 en `Input Pull Up`.
 >
 > https://docs.arduino.cc/language-reference/en/functions/digital-io/pinMode/
 > 
@@ -159,12 +159,12 @@ a = 0.390625
 
 La valeur affichée est en 10-bit sur la référence (5V).
 
-Connecter le AREF dans le 3.3V et ajouter `analogReference(EXTERNAL);` dans `setup()`
+Connecter le AREF (Aussi appelé `VRef`) dans le 3.3V et ajouter `analogReference(EXTERNAL);` dans `setup()`
 
 ![](gui/circuit3.JPG)
 
 > $\color{darkred}{\text{À VÉRIFIER}}$ **ADC ARef**
 >
 > Montrer à l'enseignant le `Serial Monitor`. 
-> Que ce passe-t-il avec et sans `analogReference(EXTERNAL);`
+> Que ce passe-t-il avec et sans `analogReference(EXTERNAL);` ?
 
