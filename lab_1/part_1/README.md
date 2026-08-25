@@ -98,9 +98,10 @@ Git bash est déjà installer, mais n'est pas lié au click-droit.
 
 ```
 cd Desktop
-##OU
+```
+**SI VOUS UTILISEZ UNE CLÉ USB**
+```
 cd /d/
-#Votre disque autre que c 
 #Demander a l'enseignant si la navigation vous pose problème
 
 ```
@@ -140,6 +141,7 @@ Si vous voulez essayer Git Extensions, l'interface sera aussi disponible via cli
 Pour suivre le développement actif des répertoires, vous pouvez simplement appliquer des `patch`. Une façon très simple est d'utiliser le `Git Bash` dans le fichier et d'écrire:
 
 ```
+cd MO_32A_Labs
 git pull
 ```
 
