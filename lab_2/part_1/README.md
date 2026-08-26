@@ -1,212 +1,97 @@
-# Laboratoire 1 / Partie 4
+# Laboratoire 2 / Partie 1
 
 
-## Partie 4:
-- Communication intermatérielle
+## Partie 1:
+
+- Test Serial
 
 
-# Émetteur [Tx] - Récepteur [Rx] (Équipe de 2 seulement)
+**NOTE** Les évaluations seront par partie. Garder votre montage fonctionnel pour chaque étape.
 
-Les protocoles servent dans plusieurs configurations, que nous allons voir en classes théoriques. Mais le concept de base est d'envoyer de l'information entre A et B.
+# Ligne Serial
 
-Placez-vous avec un étudiant pour la dernière étape. Définissez votre rôle Émetteur (`Transmit [Tx]`) ou Récepteur (`Receive [Rx]`).
+La librairie Serial de Arduino utilise le protocole UART à la base. Dans les exemples fait dans le Lab 1, nous avons utilisé 9600 de BaudRate. 
 
-![](gui/circuit1.JPG)
+Connecter la pin Tx et Rx de la ligne UART à votre oscilloscope.
 
-> $\color{gray}{\text{MANIPULATION}}$ **En équipe**
+![](gui/uart1.jpg)
+
+> $\color{gray}{\text{MANIPULATION}}$ **Ligne Sérielle Tx et Rx**
 >
-> - Faire le circuit ci-dessus.
-> - Placer la sonde 1 de l'oscilloscope sur le fil `vert`.
-> - Placer la sonde 2 de l'oscilloscope sur le fil `orange`.
+> Écrire ce code dans un nouveau programme
+> ```
+> char receivedChar;
+> boolean newData = false;
+> 
+> void setup() {
+>     Serial.begin(9600);
+>     Serial.println("<Arduino is ready>");
+> }
+> 
+> void loop() {
+>     recvOneChar();
+>     showNewData();
+> }
+> 
+> void recvOneChar() {
+>     if (Serial.available() > 0) {
+>         receivedChar = Serial.read();
+>         newData = true;
+>     }
+> }
+> 
+> void showNewData() {
+>     if (newData == true) {
+>         Serial.print(receivedChar);
+>         newData = false;
+>     }
+> }
+> ```
+> 
+> Configurer votre Monitor sous Arduino pour aucun retour de caractère. 
+> Ainsi que la vitesse à 9600.
 > 
 
-> $\color{gray}{\text{MANIPULATION}}$ **Émetteur / Tx SEULEMENT**
+![](gui/lineending.jpg)
+
+
+> $\color{gray}{\text{MANIPULATION}}$ **Oscilloscope config**
 >
-> Écrire le code requis pour l'émetteur, voici la procédure a réaliser en pseudo-code
-> ```
-> setup()
->   Initialiser le terminal à 9600
->   Pin 2 input pull-up
->   Pin 3 output
->   Pin 3 = 0
-> loop()
->   si pin 2 = 0
->      Terminal: "bouton activé"
->      pin 3 = 1
->      delai 500ms
->      Terminal: "bouton désactivé"
->      pin 3 = 0
->      
-> ```
-
-Pour le récepteur, nous allons aussi utiliser la broche 13 pour une DEL, mais au lieu de la brancher, nous allons profiter du Arduino Mega qui a déjà une lumière en `surface-mount`.
-
-![](gui/led.JPG)
-
-> $\color{gray}{\text{MANIPULATION}}$ **Récepteur / Rx SEULEMENT**
+> Assurez-vous d'avoir votre sonde 1 sur la pin `Rx` et la 2 sur `Tx`
 >
-> Écrire le code requis pour le récepteur, voici la procédure a réaliser en pseudo-code
-> ```
-> setup()
->   Initialiser le terminal à 9600
->   Pin 2 input pull-up
->   Pin 3 output
->   Pin 13 output
->   Pin 3 = 0
->   Pin 13 = 0
-> loop()
->   si pin 2 = 1
->      Terminal: "réception"
->      pin 3 = 1
->      pin 13 = 1
->      delai 500ms
->      Terminal: "réception terminer"
->      pin 3 = 0
->      pin 13 = 0
->      
-> ```
+> Appuyer sur le bouton `Decode` sur l'oscilloscope et copier les configurations suivants:
+>
+
+![](gui/config1.jpg)
+
+![](gui/config2.jpg)
+
+![](gui/config3.jpg)
+
+
+> $\color{gray}{\text{MANIPULATION}}$ **Arduino Rx/Tx**
+>
+> En utilisant l'interface Monitor du Arduino IDE, envoyer des caractères.
+> Pesez sur `Enter` pour valider votre envoi.
+>
+> Sur l'oscilloscope, utiliser le bouton `Normal` ou `Single` pour capturer l'envoi
+>
 
 
 > $\color{darkred}{\text{À VÉRIFIER}}$ **Rx/Tx Eval**
 >
-> Montrer à l'enseignant le `Serial Monitor`, la DEL ainsi que le signal sur la pin 3 (Oscilloscope sur la pin 3 des 2 Arduinos). 
-> Décrivez dans vos mots ce qui se produit dans ce programme.
+> Utiliser l'oscilloscope pour comprendre l'envoi (Et la réception) de data sur la ligne sérielle.
+> 
+> Une fois l'envoi fonctionnel, montrer à l'enseignant votre Monitor ainsi que votre oscilloscope.
+> 
 > 
 
-Le print `réception` est placé avant la pin, le `delay` n'est cependant pas affecté, car la librairie `Serial` utilise les interruptions et les 
-compteurs interne.
 
-> $\color{gray}{\text{MANIPULATION}}$ **Récepteur Bloquant**
->
-> Pour voir l'impact du temps de transmission du protocole UART, ajouter
-> `Serial.flush();` entre l'envoi `Serial` et `pin 3 = 1`.
+> $\color{darkgreen}{\text{À VÉRIFIER}}$ **Question.docx**
 > 
-
-> $\color{darkred}{\text{À VÉRIFIER}}$ **Rx/Tx Eval Bloquant**
+> Avant de passer à l'autre partie, lire la partie 1 et prendre votre capture 
+> d'écran
 >
-> Montrer à l'enseignant le signal sur la pin 3 (Oscilloscope sur la pin 3 des 2 Arduinos). 
-> 
-> Au lieu de `réception`, écriver un très long message.
-> Montrer à l'enseignant le signal sur la pin 3 (Oscilloscope sur la pin 3 des 2 Arduinos). 
-> 
+> Pour capturer une image sur l'oscilloscope, vous pouvez:
+> Configurer votre `save/recall` et ensuite utiliser `print` pour sauvegarder sur votre clé USB plus rapidement.
 
-> $\color{darkgreen}{\text{QUESTIONS}}$ **Remettez le document questions.docx rempli via Teams**
->
-> Laboratoire 1 fini!
-
-
-# Émetteur [Tx] - Récepteur [Rx] (Équipe de 3 seulement)
-
-Les protocoles servent dans plusieurs configurations, que nous allons voir en classes théoriques. Mais le concept de base est d'envoyer de l'information entre A et B. Pour cette équipe de 3, nous allons avoir: Émetteur -- Recepteur 1 -- Récepteur 2
-
-Placez-vous avec 2 étudiants pour la dernière étape. Définissez votre rôle Émetteur (`Transmit [Tx]`) ou Récepteur1 (`Receive [Rx]`) ou Récepteur2 (`Receive [Rx]`).
-
-**NOTE** Avec 3 stations pour contrôler votre circuit, aller au magasin ou demander à l'enseignant pour un fil USB plus long. Demander aussi une troisième sonde d'oscilloscope.
-
-![](gui/circuit2.JPG)
-
-> $\color{gray}{\text{MANIPULATION}}$ **En équipe**
->
-> - Faire le circuit ci-dessus.
-> - Placer la sonde 1 de l'oscilloscope sur le fil `vert`.
-> - Placer la sonde 2 de l'oscilloscope sur le fil `orange`.
-> - Placer la sonde 3 de l'oscilloscope sur le fil `bleu`.
-> 
-
-> $\color{gray}{\text{MANIPULATION}}$ **Émetteur / Tx SEULEMENT**
->
-> Écrire le code requis pour l'émetteur, voici la procédure a réaliser en pseudo-code
-> ```
-> setup()
->   Initialiser le terminal à 9600
->   Pin 2 input pull-up
->   Pin 3 output
->   Pin 3 = 0
-> loop()
->   si pin 2 = 0
->      Terminal: "bouton activé"
->      pin 3 = 1
->      delai 500ms
->      Terminal: "bouton désactivé"
->      pin 3 = 0
->      
-> ```
-
-Pour le récepteur, nous allons aussi utiliser la broche 13 pour une DEL, mais au lieu de la brancher, nous allons profiter du Arduino Mega qui a déjà une lumière en `surface-mount`.
-
-![](gui/led.JPG)
-
-> $\color{gray}{\text{MANIPULATION}}$ **Récepteur 1 / Rx SEULEMENT**
->
-> Écrire le code requis pour le récepteur, voici la procédure a réaliser en pseudo-code
-> ```
-> setup()
->   Initialiser le terminal à 9600
->   Pin 2 input pull-up
->   Pin 3 output
->   Pin 13 output
->   Pin 3 = 0
->   Pin 13 = 0
-> loop()
->   si pin 2 = 1
->      Terminal: "réception"
->      pin 3 = 1
->      pin 13 = 1
->      delai 500ms
->      Terminal: "réception terminer"
->      pin 3 = 0
->      pin 13 = 0
->      
-> ```
-
-> $\color{gray}{\text{MANIPULATION}}$ **Récepteur 2 / Rx SEULEMENT**
->
-> Écrire le code requis pour le récepteur, voici la procédure a réaliser en pseudo-code
-> ```
-> setup()
->   Initialiser le terminal à 9600
->   Pin 2 input pull-up
->   Pin 3 output
->   Pin 13 output
->   Pin 3 = 0
->   Pin 13 = 0
-> loop()
->   si pin 2 = 1
->      Terminal: "réception 2"
->      pin 3 = 1
->      pin 13 = 1
->      delai 500ms
->      Terminal: "réception 2 terminer"
->      pin 3 = 0
->      pin 13 = 0
->      
-> ```
-
-
-
-> $\color{darkred}{\text{À VÉRIFIER}}$ **Rx/Tx/Tx Eval**
->
-> Montrer à l'enseignant le `Serial Monitor`, la DEL ainsi que le signal sur la pin 3 (Oscilloscope sur la pin 3 des 3 Arduinos). 
-> Décrivez dans vos mots ce qui se produit dans ce programme.
-> 
-
-Le print `réception` est placer avant la pin, le `delay` n'est cependant pas affecté, car la librairie `Serial` utilise les interruptions et les 
-compteurs interne.
-
-> $\color{gray}{\text{MANIPULATION}}$ **Récepteur (2X) Bloquant**
->
-> Pour voir l'impact du temps de transmission du protocole UART, ajouter
-> `Serial.flush();` entre l'envoi `Serial` et `pin 3 = 1`.
-> 
-
-> $\color{darkred}{\text{À VÉRIFIER}}$ **Rx/Tx/Tx Eval Bloquant**
->
-> Montrer à l'enseignant le signal sur la pin 3 (Oscilloscope sur la pin 3 des 3 Arduinos). 
-> 
-> Au lieu de `réception`, écriver un très long message. (Pour les 2 récepteurs)
-> Montrer à l'enseignant le signal sur la pin 3 (Oscilloscope sur la pin 3 des 3 Arduinos). 
-> 
-
-> $\color{darkgreen}{\text{QUESTIONS}}$ **Remettez le document questions.docx rempli via Teams**
->
-> Laboratoire 1 fini!
