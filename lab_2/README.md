@@ -2,10 +2,12 @@
 Énoncé: Comprendre la plateforme Arduino
 
 Pondération:
-- Partie 1: 0%
-- Partie 2: 38%
-- Partie 3: 30%
-- Partie 4: 32%
+- Partie 1: TBD%
+- Partie 2: TBD%
+- Partie 3: TBD%
+- Partie 4: TBD%
+- Partie 5: TBD%
+- Partie 6: TBD%
 
 ## Matériels
 - 1 X Arduino Mega 2560 Rev3

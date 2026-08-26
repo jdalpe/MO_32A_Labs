@@ -62,11 +62,11 @@ Connecter la pin Tx et Rx de la ligne UART à votre oscilloscope.
 > Appuyer sur le bouton `Decode` sur l'oscilloscope et copier les configurations suivants:
 >
 
-![](gui/config1.jpg)
+![](gui/config1.png)
 
-![](gui/config2.jpg)
+![](gui/config2.png)
 
-![](gui/config3.jpg)
+![](gui/config3.png)
 
 
 > $\color{gray}{\text{MANIPULATION}}$ **Arduino Rx/Tx**
