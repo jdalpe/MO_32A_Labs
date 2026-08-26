@@ -2,7 +2,7 @@
 
 
 ## Partie 2:
-- Communication intermatérielle
+- Communication binaire
 
 
 # Émetteur [Tx] - Récepteur [Rx] (Équipe de 2 seulement)
@@ -89,11 +89,6 @@ compteurs interne.
 > Au lieu de `réception`, écriver un très long message.
 > Montrer à l'enseignant le signal sur la pin 3 (Oscilloscope sur la pin 3 des 2 Arduinos). 
 > 
-
-> $\color{darkgreen}{\text{QUESTIONS}}$ **Remettez le document questions.docx rempli via Teams**
->
-> Laboratoire 1 fini!
-
 
 # Émetteur [Tx] - Récepteur [Rx] (Équipe de 3 seulement)
 
@@ -206,7 +201,3 @@ compteurs interne.
 > Au lieu de `réception`, écriver un très long message. (Pour les 2 récepteurs)
 > Montrer à l'enseignant le signal sur la pin 3 (Oscilloscope sur la pin 3 des 3 Arduinos). 
 > 
-
-> $\color{darkgreen}{\text{QUESTIONS}}$ **Remettez le document questions.docx rempli via Teams**
->
-> Laboratoire 1 fini!

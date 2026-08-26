@@ -87,7 +87,7 @@ Connecter la pin Tx et Rx de la ligne UART à votre oscilloscope.
 > 
 
 
-> $\color{darkgreen}{\text{À VÉRIFIER}}$ **Question.docx**
+> $\color{darkgreen}{\text{QUESTION}}$ **Question.docx**
 > 
 > Avant de passer à l'autre partie, lire la partie 1 et prendre votre capture 
 > d'écran
