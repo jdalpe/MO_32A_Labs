@@ -3,9 +3,8 @@
 
 Pondération:
 - Partie 1: 0%
-- Partie 2: 38%
-- Partie 3: 30%
-- Partie 4: 32%
+- Partie 2: 55%
+- Partie 3: 45%
 
 ## Matériels
 - 1 X Arduino Mega 2560 Rev3
@@ -45,5 +44,3 @@ Pondération:
 #### Partie 3:
 - Exemple Pulse Width Modulation
 
-#### Partie 4:
-- Communication intermatérielle
