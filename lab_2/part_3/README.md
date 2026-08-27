@@ -9,6 +9,8 @@
 
 Le protocole UART est utilisé dans une communication bidirectionnel entre 2 machines. Nous allons procéder au branchement suivant:
 
+**NOTE** Entre les deux Arduino, so le cable USB n'est pas assez long, utilisez des pinces et des fils bananes.
+
 ![](gui/serial1.JPG)
 
 Les pins sélectionnées sont `Tx1` et `Rx1`. 
@@ -150,7 +152,6 @@ void showNewData() {
 > Utiliser l'oscilloscope pour comprendre l'envoi (Et la réception) de data sur la ligne sérielle 1.
 > 
 > Une fois l'envoi fonctionnel, montrer à l'enseignant votre Monitor ainsi que votre oscilloscope.
-> 
 > 
 > 
 

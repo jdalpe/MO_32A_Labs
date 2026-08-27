@@ -1,13 +1,12 @@
-# Laboratoire 1
-Énoncé: Comprendre la plateforme Arduino
+# Laboratoire 2
+Énoncé: UART
 
 Pondération:
-- Partie 1: TBD%
-- Partie 2: TBD%
-- Partie 3: TBD%
-- Partie 4: TBD%
-- Partie 5: TBD%
-- Partie 6: TBD%
+- Partie 1: 20%
+- Partie 2: 20%
+- Partie 3: 20%
+- Partie 4: 20%
+- Partie 5: 20%
 
 ## Matériels
 - 1 X Arduino Mega 2560 Rev3

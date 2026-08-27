@@ -63,3 +63,7 @@ https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/
 > Montrer à l'enseignant le `Serial Monitor`, la DEL ainsi que le signal sur la pin 3 (Oscilloscope sur la pin 3). 
 > Décrivez dans vos mots ce qui se produit dans ce programme.
 > 
+
+> $\color{darkgreen}{\text{QUESTIONS}}$ **Remettez le document questions.docx rempli via Teams**
+>
+> Laboratoire 1 fini!

@@ -26,3 +26,9 @@ Voici les codes:
 Dossier: lab_1
 
 Énoncé: Comprendre la plateforme Arduino
+
+
+## Laboratoire 2
+Dossier: lab_2
+
+Énoncé: UART
