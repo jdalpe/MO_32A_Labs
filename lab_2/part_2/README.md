@@ -9,7 +9,7 @@
 
 Les protocoles servent dans plusieurs configurations, que nous allons voir en classes théoriques. Mais le concept de base est d'envoyer de l'information entre A et B.
 
-Placez-vous avec un étudiant pour la dernière étape. Définissez votre rôle Émetteur (`Transmit [Tx]`) ou Récepteur (`Receive [Rx]`).
+Définissez votre rôle Émetteur (`Transmit [Tx]`) ou Récepteur (`Receive [Rx]`).
 
 ![](gui/circuit1.JPG)
 
@@ -94,7 +94,7 @@ compteurs interne.
 
 Les protocoles servent dans plusieurs configurations, que nous allons voir en classes théoriques. Mais le concept de base est d'envoyer de l'information entre A et B. Pour cette équipe de 3, nous allons avoir: Émetteur -- Recepteur 1 -- Récepteur 2
 
-Placez-vous avec 2 étudiants pour la dernière étape. Définissez votre rôle Émetteur (`Transmit [Tx]`) ou Récepteur1 (`Receive [Rx]`) ou Récepteur2 (`Receive [Rx]`).
+Définissez votre rôle Émetteur (`Transmit [Tx]`) ou Récepteur1 (`Receive [Rx]`) ou Récepteur2 (`Receive [Rx]`).
 
 **NOTE** Avec 3 stations pour contrôler votre circuit, aller au magasin ou demander à l'enseignant pour un fil USB plus long. Demander aussi une troisième sonde d'oscilloscope.
 
@@ -198,6 +198,6 @@ compteurs interne.
 >
 > Montrer à l'enseignant le signal sur la pin 3 (Oscilloscope sur la pin 3 des 3 Arduinos). 
 > 
-> Au lieu de `réception`, écriver un très long message. (Pour les 2 récepteurs)
+> Au lieu de `réception` (Pour Rx 1), écriver un très long message. (Pour les 2 récepteurs)
 > Montrer à l'enseignant le signal sur la pin 3 (Oscilloscope sur la pin 3 des 3 Arduinos). 
 > 

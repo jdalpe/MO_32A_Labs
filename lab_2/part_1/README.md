@@ -10,9 +10,9 @@
 
 # Ligne Serial
 
-La librairie Serial de Arduino utilise le protocole UART à la base. Dans les exemples fait dans le Lab 1, nous avons utilisé 9600 de BaudRate. 
+La librairie Serial de Arduino utilise le protocole UART à la base. Dans les exemples fait dans le Lab 1, nous avons utilisé 9600 de `BaudRate`. 
 
-Connecter la pin Tx et Rx de la ligne UART à votre oscilloscope.
+Connecter la pin Tx et Rx de la ligne UART à votre oscilloscope. (`D0` et `D1`)
 
 ![](gui/uart1.jpg)
 
@@ -52,7 +52,7 @@ Connecter la pin Tx et Rx de la ligne UART à votre oscilloscope.
 > Ainsi que la vitesse à 9600.
 > 
 
-![](gui/lineending.jpg)
+![](gui/lineending.JPG)
 
 
 > $\color{gray}{\text{MANIPULATION}}$ **Oscilloscope config**
@@ -63,6 +63,8 @@ Connecter la pin Tx et Rx de la ligne UART à votre oscilloscope.
 >
 
 ![](gui/config1.png)
+
+- Le voltage threshold ici peut être placer à 1.5, pas nécessaire de place 1.58 et 1.67.
 
 ![](gui/config2.png)
 

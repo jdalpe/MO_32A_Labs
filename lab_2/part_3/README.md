@@ -9,7 +9,7 @@
 
 Le protocole UART est utilisé dans une communication bidirectionnel entre 2 machines. Nous allons procéder au branchement suivant:
 
-**NOTE** Entre les deux Arduino, so le cable USB n'est pas assez long, utilisez des pinces et des fils bananes.
+**NOTE** Entre les deux Arduino, si le cable ne sont pas assez long, utilisez des pinces et des fils bananes.
 
 ![](gui/serial1.JPG)
 
@@ -62,6 +62,8 @@ void showNewData() {
 > En utilisant l'interface Monitor du Arduino IDE (Émetteur), envoyer des caractères.
 > Pesez sur `Enter` pour valider votre envoi.
 >
+> L'Arduino IDE du récepteur doit aussi être ouvert et configurer pour la même fréquence que Serial
+> 
 > Sur l'oscilloscope, utiliser le bouton `Normal` ou `Single` pour capturer l'envoi
 >
 
@@ -87,8 +89,6 @@ void showNewData() {
 # Émetteur [Tx] - Récepteur [Rx] (Équipe de 3 seulement)
 
 Pour l'équipe de 3, nous allons utiliser 2 Arduinos pour cette section. 
-
-1 étudiant sur le rôle de l'émetteur, 2 pour récepteur
 
 Le protocole UART est utilisé dans une communication bidirectionnel entre 2 machines. Nous allons procéder au branchement suivant:
 
@@ -129,7 +129,7 @@ void showNewData() {
 
 > $\color{gray}{\text{MANIPULATION}}$ **Ligne Sérielle Tx1**
 >
-> Pour les 2: Ajouter l'interface Serial1
+> Pour les 2 Arduino: Ajouter l'interface Serial1
 > 
 > `Serial1.begin(19200)`
 > 
@@ -143,6 +143,8 @@ void showNewData() {
 >
 > En utilisant l'interface Monitor du Arduino IDE (Émetteur), envoyer des caractères.
 > Pesez sur `Enter` pour valider votre envoi.
+> 
+> L'Arduino IDE du récepteur doit aussi être ouvert et configurer pour la même fréquence que Serial
 >
 > Sur l'oscilloscope, utiliser le bouton `Normal` ou `Single` pour capturer l'envoi
 >

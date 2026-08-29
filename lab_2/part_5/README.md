@@ -17,7 +17,7 @@ Le fil `orange` et `jaune` peuvent être des fils bananes avec pinces si les 2 o
 
 Pour ce test, désactivé le décodeur d'oscilloscope.
 
-Pour le code, nosu allons aussi utilisé une librairie déjà fait:
+Pour le code, nosu allons aussi utiliser une librairie déjà faite:
 
 ![](gui/lib.JPG)
 
