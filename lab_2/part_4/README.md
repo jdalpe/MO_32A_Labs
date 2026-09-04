@@ -30,6 +30,8 @@ Avec le code de la partie 3 (Émetteur et Récepteur), brancher une sonde dans T
 > En utilisant l'interface Monitor du Arduino IDE (Émetteur), envoyer des caractères.
 > Pesez sur `Enter` pour valider votre envoi.
 >
+> L'Arduino IDE du récepteur doit aussi être ouvert et configurer pour la même fréquence que Serial
+> 
 > Sur l'oscilloscope, utiliser le bouton `Normal` ou `Single` pour capturer l'envoi
 >
 > Changer la config de protocole (Protocol Config) `Idle Level` à LOW

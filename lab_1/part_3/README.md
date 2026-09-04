@@ -54,7 +54,6 @@ https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/
 > Voici les changements:
 > - Brancher une DEL à la pin 3.
 > - Utiliser la lecture analog sur `A0`.
-> - Envoyer la valeur via le `Serial Monitor`.
 > 
 
 
