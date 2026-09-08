@@ -9,7 +9,7 @@
 
 Le protocole UART vient avec une mesure de sécurité optionnel, la parité.
 
-Une parité `Odd` (Impair), utilisera un bit supplémentaire pour la somme du nombre de `1`. S'il l'est impart, le signal sera à `1`, sinon `0`.
+Une parité `Odd` (Impair), utilisera un bit supplémentaire pour la somme du nombre de `1`. S'il l'est impair, le signal sera à `1`, sinon `0`.
 
 Une parité `Even` (Pair), fera le comportement opposé, la somme des `1` doit être pair pour un `1`.
 
@@ -32,7 +32,7 @@ Voici un exemple:
 > $\color{gray}{\text{MANIPULATION}}$ **UART + Parity**
 >
 > 
-> Écrire ce code dans un nouveau programme (Celui de la partie 2)
+> Écrire ce code dans un nouveau programme (Celui de la partie 3)
 > ```
 > char receivedChar;
 > boolean newData = false;
@@ -65,7 +65,7 @@ Voici un exemple:
 > Comme l'arduino IDE n'a pas les options avancés, vous devez les simuler.
 > 
 > Avec le code de départ, contrôler l'arrivée des datas (via `recvOneChar`)
-> pour un data à 7 bit. À chaque envoie, avec un nombre aléatoire, envoyer une parité au hazard.
+> pour un data à 7 bits. À chaque envoie, avec un nombre aléatoire, envoyer une parité au hazard.
 >
 > Un caractère plus grand que 0X80 via `recvOneChar` ne sera pas valide et n'activera jamais `newData`.
 > 
