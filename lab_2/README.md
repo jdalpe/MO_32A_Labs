@@ -7,6 +7,7 @@ Pondération:
 - Partie 3: 20%
 - Partie 4: 20%
 - Partie 5: 20%
+- Partie Extra: 1% (Valeur absolue sur le cours 32A)
 
 ## Laboratoire d'équipe
 Les partie 2 à 5 se font en équipe.
@@ -111,3 +112,7 @@ La communication ici est bidirectionnel, mais pas sur le même fils. Un Client o
 #### Partie 5:
 
 - Communication RS485 (En équipe)
+
+#### Partie Extra:
+
+- UART Extra
