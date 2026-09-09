@@ -7,7 +7,7 @@
 
 # UART / Parité
 
-Le protocole UART vient avec une mesure de sécurité optionnel, la parité.
+Le protocole UART vient avec une mesure de contrôle optionnelle, la parité.
 
 Une parité `Odd` (Impair), utilisera un bit supplémentaire pour la somme du nombre de `1`. S'il l'est impair, le signal sera à `1`, sinon `0`.
 
