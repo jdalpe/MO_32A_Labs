@@ -40,16 +40,8 @@ Le laboratoire sera sur 3 semaines et est divisé en 3 étapes.
 Le matériel utilisé:
 
 - Module RTC
-
-![](gui/img.JPG)
-
 - Module Afficheur
-
-![](gui/img.JPG)
-
 - Module Lecteur de carte Micro SD
-
-![](gui/img.JPG)
 
 
 L'ensemble des modules vont communiquer soit en SPI ou en I2C (En anglais `I` `Square` `C`)
@@ -70,9 +62,9 @@ Pour capturer les prochains signaux, nous allons utiliser un analyseur logique. 
 
 Brancher votre kit de sonde numérique dans le port d'entrée de type PCIe. Au lieu d'appuyer sur `1` ou `2` pour les sondes, appuyer sur digital, enlever l'ensemble des signaux.
 
-![](gui/signal.jpg)
+![](gui/signal.png)
 
-![](gui/signal_1.jpg)
+![](gui/signal_1.png)
 
 Pour les protocoles de chaque partie, nous allons utiliser l'option `Decode` encore une fois, mais en mode `SPI` ou `I2C`.
 

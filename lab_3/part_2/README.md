@@ -41,6 +41,17 @@ Nous allons travailler avec le module OLED SSD1306:
 > 
 > 
 
+> $\color{gray}{\text{MANIPULATION}}$ **Oscillo I2C**
+>
+> À l'aide de l'analyseur logique sur l'oscilloscope, capturer une trame. Voici les configurations de `Decode` pour I2C
+> 
+
+![](gui/i2c_2.png)
+
+![](gui/i2c_3.png)
+
+![](gui/i2c_4.png)
+
 
 > $\color{darkgreen}{\text{QUESTION}}$ **Question.docx**
 > 

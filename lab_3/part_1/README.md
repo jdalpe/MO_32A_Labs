@@ -136,18 +136,19 @@ void printDateTime(const RtcDateTime& dt)
 > Clk = SCK
 > X = MISO (Disable)
 >
+>
 
-![](gui/spi_1.jpg)
+![](gui/spi_1.png)
 
-![](gui/spi_2.jpg)
+![](gui/spi_2.png)
 
-![](gui/spi_3.jpg)
+![](gui/spi_3.png)
 
-![](gui/spi_4.jpg)
+![](gui/spi_4.png)
 
-![](gui/spi_5.jpg)
+![](gui/spi_5.png)
 
-![](gui/spi_6.jpg)
+![](gui/spi_6.png)
 
 > $\color{darkgreen}{\text{QUESTION}}$ **Question.docx**
 > 
