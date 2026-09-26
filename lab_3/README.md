@@ -6,6 +6,7 @@ Pondération:
 - Partie 2: TBD%
 - Partie 3: TBD%
 - Partie 4: TBD%
+- Partie 5: TBD%
 - Partie Extra: 1% (Valeur absolue sur le cours 32A)
 
 
@@ -94,6 +95,10 @@ Pour les protocoles de chaque partie, nous allons utiliser l'option `Decode` enc
 #### Partie 4:
 
 - Ensemble
+
+#### Partie 5:
+
+- Ensemble 2
 
 #### Partie Extra:
 

@@ -160,7 +160,7 @@ void loop(void) {
 > $\color{gray}{\text{MANIPULATION}}$ **Branchement**
 >
 >
-> Nous allons tester l'écrire d'un fichier, garder votre programme en haut (Ce dernier peut trouver les fichiers)
+> Nous allons tester l'écriture d'un fichier, garder votre programme en haut (Ce dernier peut trouver les fichiers)
 >
 > Faire un nouveau sketch avec le code suivant ET configurer `SD.begin(10)` sur la bonne pin `SS` (Utiliser le pinout disponible dans ce Git repo):
 >
@@ -229,6 +229,8 @@ void loop() {
 > 
 
 > $\color{darkgreen}{\text{QUESTION}}$ **Question.docx**
+> 
+> **SAUVEGARDER VOTRE CODE POUR LES PROCHAINES SECTIONS**
 > 
 > Avant de passer à l'autre partie, répondre à la question sur la partie 3.
 >

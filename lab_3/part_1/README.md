@@ -152,5 +152,7 @@ void printDateTime(const RtcDateTime& dt)
 
 > $\color{darkgreen}{\text{QUESTION}}$ **Question.docx**
 > 
+> **SAUVEGARDER VOTRE CODE POUR LES PROCHAINES SECTIONS**
+> 
 > Avant de passer à l'autre partie, connecter votre oscilloscope sur la Pin RST, CLK et DAT et avec l'encoder (`Option decode`), capturer une trame SPI qui est décodé correctement.
 

@@ -55,6 +55,8 @@ Nous allons travailler avec le module OLED SSD1306:
 
 > $\color{darkgreen}{\text{QUESTION}}$ **Question.docx**
 > 
+> **SAUVEGARDER VOTRE CODE POUR LES PROCHAINES SECTIONS**
+> 
 > Avant de passer à l'autre partie, connecter votre oscilloscope sur la Pin SCL et SDA et avec l'encoder (`Option decode`), capturer une trame I2C qui montre l'adressage que vous avez calculé en haut.
 >
 > 
