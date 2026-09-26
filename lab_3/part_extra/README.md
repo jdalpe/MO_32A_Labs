@@ -5,30 +5,61 @@
 
 - Ensemble Extra
 
+Pour cette section, uniquement l'écran et le bouton sont nécessaire
 
-> $\color{gray}{\text{MANIPULATION}}$ **Arduino Rx/Tx**
->
-> En utilisant l'interface Monitor du Arduino IDE, envoyer des caractères.
-> Pesez sur `Enter` pour valider votre envoi.
->
-> Sur l'oscilloscope, utiliser le bouton `Normal` ou `Single` pour capturer l'envoi
->
+Display:
 
+![](gui/montage_2.JPG)
 
-> $\color{darkred}{\text{À VÉRIFIER}}$ **Rx/Tx Eval**
+Ajouter un bouton sur **n'importe quelle** IO disponible (Mode Pull-Up)
+
+Dans les années 1970, un mathématicien a voulu créer une simulation gigantesque. Le but était simple, créer un ecosysteme macroscopique avec des composants microscopique.
+
+Il a developpé 'The Game of Life', un système de simulation très simple qui prend des cellules (ici des zones de pixels) et les contrôles via leur voisin.
+
+Voici un exemple:
+
+![](gui/gameoflife.JPG)
+
+Les règles de ce système sont très simple:
+
+- Chaque cellule entourée de moins de 2 voisins meurt
+- Chaque cellule entourée de 2 ou 3 continue à vivre
+- Chaque cellule entourée de plus de 3 voisins meurt
+- Toute cellule morte entourée de exactement 3 voisins sera remis à la vie
+
+Le but de cette simulation est de créer un ecosystème qui peut interagir, mais uniquement via une distance 1. L'ensemble forme cependant un ecosystème complet. Il y a plusieurs implementation existante de ce système. 
+
+L'exercice ici est de prendre un exemple fonctionnel ET de l'adapter à votre montage.
+
+Voici quelques liens utiles:
+
+- Wiki et simulation du Game of Life de John Conway: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+- Implementation Arduino: https://github.com/rhammell/pyportal-game-life/tree/main
+
+> $\color{gray}{\text{MANIPULATION}}$ **Game Of Life par John Conway**
 >
-> Utiliser l'oscilloscope pour comprendre l'envoi (Et la réception) de data sur la ligne sérielle.
+> Commencer par prendre le fichier Arduino dans le repos Git de pyportal ci-dessus
 > 
-> Une fois l'envoi fonctionnel, montrer à l'enseignant votre Monitor ainsi que votre oscilloscope.
-> 
-> 
-
-
-> $\color{darkgreen}{\text{QUESTION}}$ **Question.docx**
-> 
-> Avant de passer à l'autre partie, lire la partie 1 et prendre votre capture 
-> d'écran
+> Au lieu d'utiliser l'afficheur: ILI9341, modifier le code pour utiliser le SSD1306 OLED
 >
-> Pour capturer une image sur l'oscilloscope, vous pouvez:
-> Configurer votre `save/recall` et ensuite utiliser `print` pour sauvegarder sur votre clé USB plus rapidement.
+> Ajuster la taille de l'écran
+>
+> Ajuster la taille des cellules à 2
+> 
+> Dans la section setup, s'assurer d'initialiser notre écran, et votre button
+> 
+> Dans la section loop:
+> 
+> S'assurer que le `initGame` soit contrôler par votre bouton poussoir (Avec un rebound de 500ms)
+>
+> Si le bouton n'est pas enfoncé, effectuer des  `stepGame` et `drawGame`
+> avec un delai de 100ms à la fin
+>
+> Faire fonctionner drawGame selon le contrôle du SSD1306 OLED
 
+> $\color{darkred}{\text{À VÉRIFIER}}$ **Game of Life Eval**
+>
+> Montrer le demo à l'enseignant votre simulation du Game of Life
+> 
+> 

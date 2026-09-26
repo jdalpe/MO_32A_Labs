@@ -5,7 +5,7 @@
 
 - Ensemble 2
 
-La partie 4 teste l'ensemble du circuit, voici le branchement à nouveau de chaque élément:
+La partie 5 teste l'ensemble du circuit, voici le branchement à nouveau de chaque élément:
 
 RTC:
 
