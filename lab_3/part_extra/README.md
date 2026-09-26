@@ -46,6 +46,8 @@ Voici quelques liens utiles:
 > Ajuster la taille de l'écran
 >
 > Ajuster la taille des cellules à 2
+>
+> Les cellules vivants sont des pixels allumé. Les cellules mortes sont des pixels éteint
 > 
 > Dans la section setup, s'assurer d'initialiser notre écran, et votre button
 > 
