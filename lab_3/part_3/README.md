@@ -145,14 +145,14 @@ void loop(void) {
 > Programmer le tout et ouvrir le moniteur sérielle.
 >
 > Le message doit être `valide`:
->
+>```
 > Initializing SD card...Wiring is correct and a card is present.
 > 
 > Card type:         SDHC
 > Clusters:          ....
 > Blocks x Cluster:  ......
 > Total Blocks:      ............
-> 
+> ```
 > Montrer le tout à l'enseignant
 > 
 
@@ -214,17 +214,17 @@ void loop() {
 > Programmer le tout et ouvrir le moniteur sérielle.
 >
 > Le message doit être `valide`:
->
+>```
 > Initializing SD card...initialization done.
 > Writing to test.txt...done.
->
+>```
 > Et avec le premier programme:
->
+>```
 > ...
 > 
 > Files found on the card (name, date and size in bytes): 
 > TEST.TXT      2000-01-01 01:00:00 224
-> 
+> ```
 > (La date sera invalide)
 > 
 
