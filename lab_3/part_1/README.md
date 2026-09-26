@@ -9,7 +9,7 @@ Premier le module de RTC (Real Time Clock) et brancher comme ceci:
 
 ![](gui/montage.JPG)
 
-> $\color{gray}{\text{MANIPULATION}}$ **RTC validation**
+> $\color{gray}{\text{MANIPULATION}}$ **RTC**
 >
 > Aller chercher une autre librarie, chercher `DS1302` et prendre `Rtc by Makuna`
 >

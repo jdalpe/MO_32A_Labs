@@ -33,12 +33,14 @@ Voici un exemple:
 >
 > 
 > Écrire ce code dans un nouveau programme (Celui de la partie 3)
+> Émetteur
 > ```
 > char receivedChar;
 > boolean newData = false;
 > 
 > void setup() {
 >     Serial.begin(9600);
+>     Serial1.begin(9600);
 >     Serial.println("<Arduino is ready>");
 > }
 > 
@@ -50,6 +52,37 @@ Voici un exemple:
 > void recvOneChar() {
 >     if (Serial.available() > 0) {
 >         receivedChar = Serial.read();
+>         newData = true;
+>     }
+> }
+> 
+> void showNewData() {
+>     if (newData == true) {
+>         Serial1.print(receivedChar);
+>         newData = false;
+>     }
+> }
+> ```
+> 
+> Récepteur
+> ```
+> char receivedChar;
+> boolean newData = false;
+> 
+> void setup() {
+>     Serial.begin(9600);
+>     Serial1.begin(9600);
+>     Serial.println("<Arduino is ready>");
+> }
+> 
+> void loop() {
+>     recvOneChar();
+>     showNewData();
+> }
+> 
+> void recvOneChar() {
+>     if (Serial1.available() > 0) {
+>         receivedChar = Serial1.read();
 >         newData = true;
 >     }
 > }
@@ -68,6 +101,8 @@ Voici un exemple:
 > pour un data à 7 bits. À chaque envoie, avec un nombre aléatoire, envoyer une parité au hazard.
 >
 > Un caractère plus grand que 0X80 via `recvOneChar` ne sera pas valide et n'activera jamais `newData`.
+>
+> Faites l'envoi/réception de votre info avec parité sur le `Serial1`
 > 
 > Avant d'imprimer le tout (via `showNewData`), vérifier la parité (Parity Even) en ajoutant au Serial.print si la parité est respecté ou pas. (Le code peut envoyer plusieurs `Serial.print` ou `Serial.println` pour le formattage)
 >
