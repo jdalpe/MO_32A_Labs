@@ -87,7 +87,7 @@ Voici quelques liens utiles:
 > $\color{darkred}{\text{À VÉRIFIER}}$ **Game of Life Eval (Mega Advanced)**
 >
 > Pour 1 % supplémentaire, modifier la règle du système 
-> de `B3/S23` pour `B34/S23
+> de `B3/S23` pour `B34/S23`
 > 
 > Votre espace sera insuffisant, mais il y a une méthode pour sauver plusieurs octets!
 > 
