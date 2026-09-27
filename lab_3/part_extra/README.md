@@ -58,12 +58,12 @@ Voici quelques liens utiles:
 > Si le bouton n'est pas enfoncé, effectuer des  `stepGame` et `drawGame`
 > avec un delai de 100ms à la fin
 >
-> Faire fonctionner drawGame selon le contrôle du SSD1306 OLED
+> Faire fonctionner `drawGame` selon le contrôle du SSD1306 OLED
 >
 > Changer l'allocation dynamique de `game` et `temp_game`
 > **Faire un tableau fixe, mais transformer num_cols/num_rows en define**
 >
-> Avec num_cols/num_rows, le type est redefine par un entier **positif**, dans countNeighbors, assurer vous d'utiliser un cast 
+> Avec num_cols/num_rows, le type est redefini par un entier **positif**, dans countNeighbors, assurez-vous d'utiliser un cast 
 >
 > ```
 > int newX = (x + i + int(num_rows)) % int(num_rows);
