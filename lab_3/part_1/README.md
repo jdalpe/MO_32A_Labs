@@ -129,6 +129,8 @@ void printDateTime(const RtcDateTime& dt)
 >
 > L'envoi de data se fait à une fréquence déterminer. Sans modifier le programme, brancher l'oscilloscope sur les pin 4,5,6 (Rst, Dat et Clk) via l'analyseur logique
 >
+> Ce protocole ici peut être capturer via le mode SPI, mais MOSI sera `bidirectionnel`, ce n'est pas comme le I2C avec des pull-ups, mais c'est une version minimal de SPI et I2C
+>
 > Essayer de capturer une trame en entier. 
 >
 > Rst = CS

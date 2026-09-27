@@ -5,11 +5,8 @@
 
 - Ensemble 2
 
-La partie 5 teste l'ensemble du circuit, voici le branchement à nouveau de chaque élément:
+La partie 5 teste l'ensemble du circuit, voici le branchement à nouveau de chaque élément nécessaire:
 
-RTC:
-
-![](gui/montage_1.JPG)
 
 Display:
 

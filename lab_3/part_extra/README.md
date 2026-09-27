@@ -45,7 +45,7 @@ Voici quelques liens utiles:
 >
 > Ajuster la taille de l'écran
 >
-> Ajuster la taille des cellules à 2
+> Ajuster la taille des cellules à 4
 >
 > Les cellules vivants sont des pixels allumé. Les cellules mortes sont des pixels éteint
 > 
@@ -59,9 +59,35 @@ Voici quelques liens utiles:
 > avec un delai de 100ms à la fin
 >
 > Faire fonctionner drawGame selon le contrôle du SSD1306 OLED
+>
+> Changer l'allocation dynamique de `game` et `temp_game`
+> **Faire un tableau fixe, mais transformer num_cols/num_rows en define**
+>
+> Avec num_cols/num_rows, le type est redefine par un entier **positif**, dans countNeighbors, assurer vous d'utiliser un cast 
+>
+> ```
+> int newX = (x + i + int(num_rows)) % int(num_rows);
+> int newY = (y + j + int(num_cols)) % int(num_cols);
+> ```
+>
 
 > $\color{darkred}{\text{À VÉRIFIER}}$ **Game of Life Eval**
 >
 > Montrer le demo à l'enseignant votre simulation du Game of Life
+> (Pour 1 %)
 > 
+
+> $\color{darkred}{\text{À VÉRIFIER}}$ **Game of Life Eval (Advanced)**
+>
+> Pour 1 % supplémentaire, placer la `cell_size` à 2 et essayer de compiler votre programme
+> 
+> Votre espace sera insuffisant, mais il y a une méthode pour sauver plusieurs octets!
+> 
+
+> $\color{darkred}{\text{À VÉRIFIER}}$ **Game of Life Eval (Mega Advanced)**
+>
+> Pour 1 % supplémentaire, modifier la règle du système 
+> de `B3/S23` pour `B34/S23
+> 
+> Votre espace sera insuffisant, mais il y a une méthode pour sauver plusieurs octets!
 > 

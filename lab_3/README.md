@@ -7,7 +7,7 @@ Pondération:
 - Partie 3: TBD%
 - Partie 4: TBD%
 - Partie 5: TBD%
-- Partie Extra: 1% (Valeur absolue sur le cours 32A)
+- Partie Extra: Jusqu'à 3% (Valeur absolue sur le cours 32A)
 
 
 ## Matériels
@@ -56,6 +56,8 @@ Voici un exemple de trame SPI:
 Et voici un pseudo-chronogramme d'états sur la ligne SDA pour I2C:
 
 ![](gui/i2c.jpg)
+
+Le partie 1 sera sur un hybrid des deux et utilisera des pin non-dédié.
 
 ## Oscilloscope mode numérique
 
