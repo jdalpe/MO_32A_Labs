@@ -42,7 +42,7 @@ void setup ()
     RtcDateTime compiled = RtcDateTime(__DATE__, __TIME__);
     printDateTime(compiled);
     Serial.println();
-
+    Rtc.SetDateTime(compiled);
     if (!Rtc.IsDateTimeValid()) 
     {
         // Common Causes:
