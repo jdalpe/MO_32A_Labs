@@ -28,16 +28,22 @@ Pour cette section, le code utilisé sera dans les exemples: `Examples/OneWire/D
 > // DQ with pull-up 4.7kOhm
 > ```
 
+
 > $\color{gray}{\text{MANIPULATION}}$ **One-Wire oscilloscope**
 >
-> 
+> Brancher l'oscilloscope via les sondes numériques et obtenir une trame sur DQ
 >
 
-> $\color{darkred}{\text{À VÉRIFIER}}$ **TEST Eval**
->
-> 
-> 
+La trame ressemble à ceci:
 
+![](gui/temp.png)
+
+> $\color{darkred}{\text{À VÉRIFIER}}$ **One-Wire Eval**
+>
+> Montrer à l'enseignant la prise de data à l'oscilloscope
+> (Pas besoin de la décoder)
+> Montrer aussi votre moniteur, l'enseignant va vérifier la température
+> 
 
 
 > $\color{darkgreen}{\text{QUESTION}}$ **Question.docx**
