@@ -3,14 +3,12 @@
 
 ## Partie 3:
 
-- Communication avec une bande de DELs/LEDs
-
-# Laboratoire 4 / Partie 2
+- Communication avec DEL strip
 
 
-Pour l'infrarouge, il faut une librairie via l'arduino IDE: `FastLED` by **Daniel Garcia**
+Pour les DELs/LEDs, il faut une librairie via l'arduino IDE: `FastLED` by **Daniel Garcia**
 
-Pour cette section, le code utilisé sera dans les exemples: `Examples/IRremote/Blink`.
+Pour cette section, le code utilisé sera dans les exemples: `Examples/FastLED/Blink`.
 
 
 
