@@ -2,13 +2,13 @@
 Énoncé: One-Wire, Infra et DEL strip
 
 Pondération:
-- Partie 1: TBD%
-- Partie 2: TBD%
-- Partie 3: TBD%
-- Partie 4: TBD%
-- Partie 5: TBD%
-- Partie 6: TBD%
-- Partie 7: TBD%
+- Partie 1: 14%
+- Partie 2: 14%
+- Partie 3: 15%
+- Partie 4: 15%
+- Partie 5: 14%
+- Partie 6: 14%
+- Partie 7: 14%
 
 
 ## Matériels
