@@ -65,7 +65,7 @@ Tester le code avec 1 ET 2 DELs/LEDs en Vert, Rouge et Bleu.
 
 > $\color{darkgreen}{\text{QUESTION}}$ **Question.docx**
 > 
-> Remplir les questions de la partie 2 et capturer l'oscilloscope
+> Remplir les questions de la partie 3 et capturer l'oscilloscope
 > 
 
 
