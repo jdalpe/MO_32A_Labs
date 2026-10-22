@@ -9,6 +9,9 @@
 
 > $\color{gray}{\text{MANIPULATION}}$ **Ensemble 1**
 >
+> Démarrer un nouveau fichier Arduino Sketch. Sauvegarder votre projet et ajouter le fichier `PinDefinitionsAndMore.h à la même place que votre .ino. (Il s'agit d'un fichier HEADER utile pour l'infrarouge)
+>
+>
 > En utilisant l'ensemble du code et des branchements des dernières parties, effectuer un code avec la structure suivant:
 >
 
