@@ -49,7 +49,14 @@ Voici quelques liens utiles:
 >
 > Les cellules vivants sont des pixels allumé. Les cellules mortes sont des pixels éteint
 > 
-> Dans la section setup, s'assurer d'initialiser notre écran, et votre button
+> Dans la section setup:
+>
+> S'assurer d'initialiser notre écran
+> 
+> Votre button pull up
+> 
+> Votre `initGame` initial aussi
+> 
 > 
 > Dans la section loop:
 > 

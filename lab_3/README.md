@@ -2,11 +2,11 @@
 Énoncé: I2C et SPI
 
 Pondération:
-- Partie 1: TBD%
-- Partie 2: TBD%
-- Partie 3: TBD%
-- Partie 4: TBD%
-- Partie 5: TBD%
+- Partie 1: 15%
+- Partie 2: 15%
+- Partie 3: 20%
+- Partie 4: 25%
+- Partie 5: 25%
 - Partie Extra: Jusqu'à 3% (Valeur absolue sur le cours 32A)
 
 
