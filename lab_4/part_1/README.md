@@ -13,7 +13,7 @@ Pour cette section, le code utilisé sera dans les exemples: `Examples/OneWire/D
 
 > $\color{gray}{\text{MANIPULATION}}$ **One-Wire**
 >
-> Avec l'exemple, changer la pin de signal pour 10
+> Avec l'exemple, changer la pin de signal pour la pin 4
 >
 > ```
 > --- line 10: ds(10);
