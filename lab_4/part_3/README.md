@@ -19,8 +19,8 @@ Pour cette section, le code utilisé sera dans les exemples: `Examples/FastLED/B
 > --- (Line 9): #define NUM_LEDS 1
 > +++ (Line 9): #define NUM_LEDS 15
 > 
-> --- (line 81): leds[i] = CRGB::Red;
-> +++ (line 81): leds[i].setRGB(255,0,0);
+> --- (line 79-83): leds[i] = CRGB::Red;
+> +++ (line 79-83): leds[i].setRGB(255,0,0);
 > ```
 > 
 > Branchement:
@@ -30,7 +30,7 @@ Pour cette section, le code utilisé sera dans les exemples: `Examples/FastLED/B
 > // IN -> 3
 > ```
 > 
-> Vérifier si l'ensemble des lumières illument par intermittence
+> Vérifier si l'ensemble des lumières illumiment par intermittence
 > 
 
 La méthode `setRGB(255,0,0);` équivaut à rouge, mais tester `setRGB(0,255,0);`(Vert) et `setRGB(0,0,255);` (Bleu)
