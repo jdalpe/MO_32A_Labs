@@ -19,7 +19,7 @@
 //
 // Loop
 // En plus des chiffres et des flèches, quand la télécommande envoi la commande 'REPEAT':
-// Au lieu de ne rien faire pour cette commande, vous allez placer la même DEL qui a été sélectionner juste avant et lui ajouter lui donner une valewur aléatoire sur l'ensemble des canaux de couleurs
+// Au lieu de ne rien faire pour cette commande, vous allez placer la même DEL qui a été sélectionner juste avant et lui ajouter lui donner une valeur aléatoire sur l'ensemble des canaux de couleurs
 // Utiliser random(256) 3 fois 
 // r = random(256); g = random(256); b = random(256);
 // leds[del_selection].setRGB(r,g,b);
