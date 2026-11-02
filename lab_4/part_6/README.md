@@ -7,7 +7,7 @@
 
 > $\color{gray}{\text{MANIPULATION}}$ **Ensemble 3**
 >
-> Commencer avec votre code de la partie 3 et nous allons ajouter des fonctionnalités
+> Commencer avec votre code de la partie 5 et nous allons ajouter des fonctionnalités
 >
 
 
