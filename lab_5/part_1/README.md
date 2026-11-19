@@ -28,6 +28,15 @@ Effectuer le branchement suivant:
 > - iOS: `Arduino Bluetooth Control`
 > 
 
+Dans le but d'utiliser les applications. Votre matériel dois être 'PAIR' avec votre téléphone.
+
+Voici la procédure de base. 
+
+- Aller dans les paramètres Bluetooth. Le matériel sera HC-06 ou HC-05. Assurez-vous que ce soit le votre, alimenter le votre seulement quand vous être prêt à le connecter.
+- Au moment du `pairing`, s'il y a un mot de passe demander, écrire: `1234`. C'est le mot de passe par défaut des appareils Bluetooth.
+- Une fois `paired`. Utiliser l'application et connectez-vous au module. Une fois brancher, utiliser la fonction `READ` ou `WRITE` du service de base.
+- **TRÈS IMPORTANT** Quand vous avez fini, utiliser la fonction `Unpair` dans vos paramètre Bluetooth. Cela va empecher de connecter à un module en tout temps de façon automatique.
+
 > $\color{gray}{\text{MANIPULATION}}$ **Comm**
 >
 > 
