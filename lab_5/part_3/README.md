@@ -17,7 +17,7 @@ Comme pour le laboratoire 3 et 4, nous allons utiliser l'ensemble des modules en
 >
 > Exemple simple: À la réception d'un caractère, le Servo bouge
 > Exemple moyen: À la réception de caractères, la valeur est envoyée au Servo pour qu'il bouge
-> Exemple expert: À la réception de caractères, la valeur envoyé est en degrée. Si la valeur est entre 0 et 180, la valeur est fonctionne et adapté sur votre Servo. Sinon, un message d'erreur est envoyé sur la bande Bluetooth pour mentionner une commande invalide.
+> Exemple expert: À la réception de caractères, la valeur envoyée est en degrée. Si la valeur est entre 0 et 180, la valeur est fonctionnel et adapté sur votre Servo (Conversion range 1..200). Sinon, un message d'erreur est envoyé sur la bande Bluetooth pour mentionner une commande invalide.
 > 
 > 
 > Vous pouvez discuter avec l'enseignant AVANT pour voir le niveau de votre choix de programme.
@@ -30,7 +30,7 @@ Comme pour le laboratoire 3 et 4, nous allons utiliser l'ensemble des modules en
 
 > $\color{darkred}{\text{À VÉRIFIER}}$ **Eval**
 >
-> Montrer à l'enseignant votre code et expliquer ce qu'il fait. L'enseignant peut poser des questions sur toutes les sections. un réponse qui montre l'utilisation de l'IA vous donne '0' pour cette partie.
+> Montrer à l'enseignant votre code et expliquer ce qu'il fait. L'enseignant peut poser des questions sur toutes les sections. un réponse qui montre l'utilisation de l'IA copier-coller vous donne '0' pour cette partie.
 > 
 
 **Laboratoire fini**
