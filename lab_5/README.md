@@ -56,4 +56,4 @@ Ici, par Bluetooth, on veut dire BLE (Bluetooth Low Energy). Ce n'est pas le mê
 
 #### Partie 3:
 
-- Assemble 1
+- Communication avec servomoteur 2

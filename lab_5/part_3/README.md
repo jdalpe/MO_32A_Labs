@@ -3,34 +3,29 @@
 
 ## Partie 3:
 
-- Assemble 1
+- Communication avec servomoteur 2
 
-Comme pour le laboratoire 3 et 4, nous allons utiliser l'ensemble des modules en même temps dans une application.
+**EDIT**: cette section ici va changer pour ne pas utiliser BLE car Android est la seule plateforme qui supporte Bluetooth 2.0.
 
 
 
-> $\color{gray}{\text{MANIPULATION}}$ **Assemble**
+> $\color{gray}{\text{MANIPULATION}}$ **Servo 2**
 >
-> Créer un programme qui utilise le module BLE et le servomoteur. 
+> À l'aide de l'exemple de Servomoteur. Créé un oscillateur entre 2 valeurs.
+> Le temps d'oscillation peut-être défini en seconde via un DEFINE.
 >
-> Selon le niveau de complexité, vos points seront plus élevé.
+> Garder l'interrupt et la section qui contrôle le digitalWrite. 
+> Enlever la section du Serial.print dans le loop.
 >
-> Exemple simple: À la réception d'un caractère, le Servo bouge
-> Exemple moyen: À la réception de caractères, la valeur est envoyée au Servo pour qu'il bouge
-> Exemple expert: À la réception de caractères, la valeur envoyée est en degrée. Si la valeur est entre 0 et 180, la valeur est fonctionnel et adapté sur votre Servo (Conversion range 1..200). Sinon, un message d'erreur est envoyé sur la bande Bluetooth pour mentionner une commande invalide.
+> Placer votre calcul et changement pour l'oscillateur dans: `ISR(TIMER1_COMPA_vect)`
 > 
-> 
-> Vous pouvez discuter avec l'enseignant AVANT pour voir le niveau de votre choix de programme.
 >
-> La note de cette section est de: 
-> - Simple: 50%
-> - Moyen: 75%
-> - Expert: 100%
+> Si votre code est trop gros, utiliser d'autres variable `volatile` pour finaliser le calcul dans `loop`.
 
 
 > $\color{darkred}{\text{À VÉRIFIER}}$ **Eval**
 >
-> Montrer à l'enseignant votre code et expliquer ce qu'il fait. L'enseignant peut poser des questions sur toutes les sections. un réponse qui montre l'utilisation de l'IA copier-coller vous donne '0' pour cette partie.
+> Montrer à l'enseignant votre code et expliquer ce qu'il fait.
 > 
 
 **Laboratoire fini**
