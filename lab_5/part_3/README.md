@@ -12,7 +12,7 @@
 > $\color{gray}{\text{MANIPULATION}}$ **Servo 2**
 >
 > À l'aide de l'exemple de Servomoteur. Créé un oscillateur entre 2 valeurs.
-> Le temps d'oscillation peut-être défini en seconde via un DEFINE.
+> Le temps d'oscillation peut-être défini en secondes/millisecondes via un DEFINE.
 >
 > Garder l'interrupt et la section qui contrôle le digitalWrite. 
 > Enlever la section du Serial.print dans le loop.
